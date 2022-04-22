@@ -137,10 +137,10 @@ body {
     background-color: var(--facebook);
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 880px){
     .card {
         width: 35rem;
-        height: 26.2rem;
+        height: 32rem;
     }
     .header {
         height: 9rem;
@@ -179,7 +179,7 @@ body {
     }
     .card {
         width: 25rem;
-        height: 40rem;
+        height: 50rem;
     }
     .header {
         height: 9.5rem;
