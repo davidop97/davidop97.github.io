@@ -1,3 +1,13 @@
+
+:root {
+    --white: #ffffff;
+    --facebook: #244e9a;
+    --twitter: #1DA1F2;
+    --instagram: #E1306C;
+    --linkedin: #0071bc;
+    --github: #333333;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,17 +16,27 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    font-size: 70%;
+    font-size: 61%;
 }
 
 body {
     background-image: url("https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-position: center;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
+
+.card {
+    width: 50rem;
+    height: 50rem;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+
+
