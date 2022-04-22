@@ -140,7 +140,7 @@ body {
 @media screen and (max-width: 760px){
     .card {
         width: 35rem;
-        height: 26.2rem;
+        height: 32rem;
     }
     .header {
         height: 9rem;
@@ -179,7 +179,7 @@ body {
     }
     .card {
         width: 25rem;
-        height: 45rem;
+        height: 50rem;
     }
     .header {
         height: 9.5rem;
