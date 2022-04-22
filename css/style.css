@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background-image: url("https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,34 +65,34 @@ body {
 }
 
 .information .logo {
-    width: 16rem;
-    height: 16rem;
+    width: 20rem;
+    height: 15rem;
     position: absolute;
     border: 5px solid var(--white);
-    top: -100px;
+    top: -80px;
+    overflow: hidden;
 }
 
 .information .logo img {
     width: 100%;
-    height: 16rem;
+    position: absolute;
 }
 
 .info h1 {
-    font-size: 4.5rem;
+    font-size: 3.8rem;
     font-weight: 700;
-    letter-spacing: 1px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 75px;
+    flex-direction: column;
 
 }
 
 .info h5 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 700;
     margin-top: 20px;
-    letter-spacing: 1px;
     text-align: center;
-    color: #707070;
+    color: darkslategray;
 }
 
 .social-networks {
@@ -103,8 +103,8 @@ body {
 }
 
 .button {
-    width: 7rem;
-    height: 4rem;
+    width: 6.5rem;
+    height: 3.5rem;
     background-color: #bbbbbb;
     margin: 0 15px;
     border-radius: 10px;
