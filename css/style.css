@@ -136,3 +136,74 @@ body {
 .button.facebook:hover {
     background-color: var(--facebook);
 }
+
+@media screen and (max-width: 760px){
+    .card {
+        width: 35rem;
+        height: 26.2rem;
+    }
+    .header {
+        height: 9rem;
+    }
+    .information .logo {
+        width: 9.4rem;
+        height: 9.4rem;
+        border: 3px solid var(--white);
+        top: -60px;
+    }
+    .info h1 {
+        font-size: 3rem;
+        margin-top: 40px;
+    }
+    .info h3 {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .social-networks {
+        margin-top: 15px;
+    }
+    .social-networks img{
+        height: 1.8rem;
+    }
+    .button {
+        width: 4.3rem;
+        height: 3rem;
+        margin: 0 10px;
+        border-radius: 7px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    body {
+        background-color: #C7C7C7;
+    }
+    .card {
+        width: 25rem;
+        height: 45rem;
+    }
+    .header {
+        height: 9.5rem;
+    }
+    .information .logo {
+        top: -35px;
+    }
+    .info h1 {
+        font-size: 2.8rem;
+        margin-top: 65px;
+    }
+    .info h5 {
+        font-size: 1.8rem;
+        margin-top: 5px;
+    }
+    .social-networks {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+        width: 12rem;
+        height: 3rem;
+        margin: 5px 0;
+        border-radius: 12px;
+    }
+}
